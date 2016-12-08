@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700');
+.column, .columns{
+  min-height: 1px;
+}
+a{
+    color:#6F5F56;
+}
+*{
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: bold !important;
+}
+body{
+    color:#6F5F56;
+    margin: 0;
+}
+strong{
+    font-stretch: normal;
+}
+#BarraInicial{
+    background-image: url("RECORTES/HEADER/BARRA_AZUL/barra_azul.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 0 50px;
+    height: 45px;
+    width: 100%;
+    margin: 0;
+}
+#SaberMasText{
+       background-image: url("RECORTES/HEADER/texto1_nomal.png");
+       width: 500px;
+       float:left;
+       margin: 15px 0px;
+       height: 20px;
+       background-repeat: no-repeat;
+}
+#SaberMasText:hover{
+       background-image: url("RECORTES/HEADER/texto1_over.png");
+}
+#Buscar{
+    float:right;
+    font-size: 0px;
+}
+#Buscar *{
+    display: inline-block;
+}
+#Buscar input{
+    width: 80%;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 0 55px;
+    margin: 10px 0px;
+    height: 25px;
+}
+#Buscar span:first-child{
+    position: relative;
+    left: 50px;
+    background-image: url("RECORTES/HEADER/BARRA_AZUL/buscar.png");
+    width: 45px;
+    height: 15px;
+    top:-12px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+#Buscar span:last-child{
+    position: relative;
+    left: -25px;
+    background-image: url("RECORTES/HEADER/BARRA_AZUL/lupa.png");
+    width: 13px;
+    height: 13px;
+    top:-10px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+.wrapper{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper2{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+/*-----------------------------*/
+.table{
+    display: table;
+    width: 92%;
+    padding: 0 50px;
+}
+#BarraLogo{
+    display: table-row;
+    width:100%;
+}
+#BRedes{
+    width: 20%;
+    display: table-cell;
+    vertical-align: middle;
+}
+#SiguenosEn{
+       background-image: url("RECORTES/HEADER/siguenos.png");
+       width: 80px;
+       margin: 10px 0px;
+       height: 20px;
+       background-repeat: no-repeat;
+       background-size: 100% auto;
+       display: block;
+}
+#BarraIconos{
+    display: block;
+    width: 200px;
+}
+#BarraIconos ul{
+    display: block;
+    padding: 0;
+    list-style-type: none;
+}
+#BarraIconos ul li{
+    float:left;
+    width: 30px;
+    height: 30px;
+    left:-20px;
+    padding-right: 5px;
+}
+#IFacebook{
+
+    background-image: url("RECORTES/HEADER/facebook.png");
+    background-repeat: no-repeat;
+}
+#ITwitter{
+
+    background-image: url("RECORTES/HEADER/twitter.png");
+    background-repeat: no-repeat;
+}
+#IPhoto{
+
+    background-image: url("RECORTES/HEADER/instagram.png");
+    background-repeat: no-repeat;
+}
+
+#IdWrapper{
+    display: table-cell;
+    width: 60%;
+}
+#Logo{
+    background-image: url("RECORTES/HEADER/LOGO.png");
+    width: 150px;
+    margin: 0 auto;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+#Carrito{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 20%;
+
+    margin: 0 auto;
+    
+
+    
+
+}
+#ICarrito{
+        width: 30px;height: 30px;
+        display: inline-block;
+        background-image: url("RECORTES/HEADER/carrito.png");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        
+}
+#MensajeCarrito{
+        width: 150px;height: 25px;
+        padding: 0px 0;
+        display: inline-block;
+        background-image: url("RECORTES/HEADER/registro_ingreso.png");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+}
+/*-------------------*/
+
+header nav ul li{
+    float:left;
+    padding: 10px 6%;
+    color:#6F5F56;
+    font-size: 1.15em;
+    text-align: center;
+}
+header nav{
+    display: block;
+    width: 92%;
+    margin: 0 50px;
+    background-image: url("RECORTES/HEADER/BARRA_MENU/barra_menu.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+header nav ul{
+    display: block;
+    padding: 0;
+    list-style-type: none;
+    width: 90%;
+    margin-left: 5% !important;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+.fullimage > img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.cabeza{
+    background-color: #6F5F56;
+    color: white;
+    font-size: 20px;
+    padding: 5px 1em;
+    font-weight:lighter !important;
+}
+
+.foot{
+    background-color:rgb(175, 151, 143) ;
+    color: white;
+    font-size: 20px;
+    marker: 10px;
+    
+}
+.foot img{
+    width: 50%;
+    display: block;
+    margin: 0 auto; 
+}
+.margintop{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.margintop input{
+    height: 2.0em;
+    border-radius: 0.4em;
+    font-size: 0.8em;
+    padding: 0px 5px;
+}
+.margintop button{
+    float:right;
+    font-size: 0.6em;
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+    border-radius: 5px;
+    
+}
+footer h4{
+    font-size: 0.7em;
+}
+footer p{
+    font-size: 0.6em;
+}
+.hr1,.hr2,.hr3,.hr5{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-bottom: 0px;
+}
+.hr1{
+    background-image: url("RECORTES/HOME/detalle1.png");
+}
+.hr2{
+    background-image: url("RECORTES/HOME/detalle2.png");
+}
+.hr3{
+    position: relative;
+    background-image: url("RECORTES/HOME/hr3.png");
+    height: 27px;
+    overflow: visible;
+    top:-7px;
+    margin:0 ;
+}
+.hr4{
+    background-image: url("RECORTES/HOME/detalle2.png");
+    width: 100%;
+}
+.hr5{
+    background-image: url("RECORTES/CONTACTO/linea.png");
+    width: 100%;
+}
+.softText{
+    text-align: justify;
+    color:rgb(175, 151, 143);
+    font-weight: lighter !important;
+}
+
+.menuRedondo li{
+    background-image: url("RECORTES/HOME/boton.png");
+    height: 4em;
+    list-style: none;
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    margin-top: -20px;
+    overflow: visible;
+    position: relative;
+    
+}
+.menuRedondo li[estado="activo"]{
+    background-image: url("RECORTES/HOME/botonActivo.png");
+}
+.menuRedondo li:hover{
+    background-image: url("RECORTES/HOME/botonActivo.png");
+}
+.menuRedondo li:first-child{
+    margin-top: 68px;
+}
+
+.productos div p{
+    text-align: center;
+    margin-top: -1.5em;
+}
+.marcoProductos{
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position-x: 1.5em;
+    background-position-y: 1em;
+    margin: 0 1.5em;
+}
+.marcoProductos img{
+    display: block;
+    padding: 0.3em 1em;
+    height: 343px;
+}
+
+
+.marcoProductosDetail{
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position-x: 0.5em;
+    background-position-y: 1em;
+    margin: 0 1.5em;
+}
+
+
+
+
+
+.submenu{
+    margin-left: 7em;
+    margin-top: -1em;
+    width: 70%;;
+}
+.numerosBusqueda ul{
+
+    float:left;
+
+}
+.numerosBusqueda ul li{
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 0.7em;
+}
+.inputBlue input, .inputBlue select{
+    display: inline-block;
+    width: 3.5em;
+    margin-left: 1em;
+    font-size: 1.2em;
+    text-align: center;
+    border-color: deepskyblue;
+    border-width: 0.2em;
+    color: #6F5F56;
+    padding: 5px;
+}
+.inputBlue *{
+    display: inline-block;
+}
+.azul{
+    color:rgb(45, 210, 232) !important;
+}
+.formContacto label{
+    font-size: 1.5em;
+    color: #6F5F56;
+}
+.formContacto input{
+    border-width: 0px;
+    box-shadow: inset 0 0 0 white;
+    background-image: url("RECORTES/CONTACTO/linea.png");
+    background-repeat: no-repeat;
+    background-position-y: 2.5em;
+    background-size: 100%;
+    font-family: 'Quicksand', sans-serif !important;
+    height: 3em;
+    overflow: visible;
+    font-size: 1.3em;
+    color: rgb(175, 151, 143);
+}
+.formContacto input:focus{
+    border-width: 0px;
+}
+.formContacto textarea{
+    border-color: rgb(175, 151, 143);
+    border-width: 3px;
+    border-radius: 10px;
+    height: 10em;
+    font-size: 1.3em;
+    color: rgb(175, 151, 143);
+}
+.formContacto button{
+    float: right;
+    padding: 0.3em 1em;
+    background-color: rgb(233, 224, 217);
+    border-radius: 0.5em;
+    width: 7em;
+    font-size: 1.5em;
+    color:rgb(175, 151, 143);
+}
+.marcoAzul{
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(45, 210, 232,0.5);
+}
+.menuAzul{
+    margin: 0;
+}
+.menuAzul li{
+    color:white !important;
+    background-color: rgb(45, 210, 232);
+    margin: 0;
+    padding: 0.5em;
+    margin:5px;
+}
+.menuAzul li:last-child{
+    border-radius: 0 0 1em 1em; 
+}
+.tablaAzul th{
+    color: rgb(175, 151, 143) !important;
+    font-size: 1.5em;
+}
+.tablaAzul td{
+    font-weight: lighter !important;
+}
+.tablaAzul tr:nth-child(2n+1){
+    background-color: rgba(45, 210, 232,0.5);
+}
+.tablaAzul thead th{
+    background-color: white;
+}
+.bCafe{
+    background-color: rgb(233, 224, 217);
+    padding: 0.7em;
+    border-radius: 1em;
+    color: rgb(175, 151, 143);
+}
+.bBlue{
+    background-color: rgb(45, 210, 232);
+    padding: 0.7em;
+    border-radius: 1em;
+    color:white;
+}
+.bCafe2{
+    background-color: rgb(233, 224, 217);
+    padding: 0.7em;
+    border-radius: 1em;
+    color: rgb(175, 151, 143);
+    font-size: 0.7em;
+    position: relative;
+    bottom: 0px;
+    margin-top: 2em;
+}
+.tablaImg th{
+    color: rgb(175, 151, 143) !important;
+    font-size: 1.5em;
+}
+.tablaImg tbody td div img{
+    width: 7em;
+    height: 7em;
+}
